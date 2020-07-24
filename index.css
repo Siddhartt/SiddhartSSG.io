@@ -1,5 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
 
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 body, html{
   font-family: 'Montserrat', sans-serif;
   height: 100%;
@@ -113,18 +126,7 @@ body, html{
   }
   
 
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
 
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
   .zoom {
     padding: 50px;
@@ -176,4 +178,12 @@ hr{
   width: 90%;
   opacity: 0.5;
   
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: lightyellow;
+  opacity: 0.5;
 }
