@@ -124,8 +124,6 @@ body, html{
     border-radius: 5%;
     padding: 10px;
   }
-  
-
 
 
   .zoom {
@@ -175,9 +173,8 @@ h1 span{
 hr{
   height: 10px;
   background-color: white;
-  width: 90%;
+  width: 95%;
   opacity: 0.5;
-  
 }
 
 a{
@@ -186,4 +183,8 @@ a{
 a:hover{
   color: lightyellow;
   opacity: 0.5;
+}
+
+.icons:hover{
+  scale: 2px;
 }
