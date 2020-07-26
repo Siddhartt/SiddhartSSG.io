@@ -187,15 +187,3 @@ a:hover{
   opacity: 0.5;
 }
 
-.tooltip {
-   position: relative;
-    cursor: pointer; 
-  }
-.tooltip:hover:after {
-   content: attr(title); 
-   position: absolute; 
-   white-space: nowrap; 
-   background: rgba(0, 0, 0, 0.85); 
-   padding: 3px 7px; color: #FFF;
-   z-index: 10;
-  }
