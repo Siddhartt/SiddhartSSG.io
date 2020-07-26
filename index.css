@@ -118,8 +118,8 @@ body, html{
   
 
   .content {
-    background: linear-gradient(180deg, rgba(226,255,255,1) 0%, rgba(255,223,223,1) 100%);
-    color: black;
+    background:rgba(255,255,255, 0.2);
+    color: white;
     border-style: solid;
     border-radius: 5%;
     padding: 10px;
