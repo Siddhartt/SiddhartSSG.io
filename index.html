@@ -14,7 +14,7 @@
             <div class="hero-text">
                 <h1>Hey, I'm <span>Siddhart.</span></h1>
                 <p class="TypeW">
-                    <p href="" class="typewrite" data-period="2000" data-type='["I am a developer.","I make discord bots."]'>
+                    <p href="" class="typewrite" data-period="2000" data-type='["I am a developer.","I make discord bots.","I want to be a Full Stack Developer!"]'>
                         <span class="wrap"></span>
                     </p>
                 </p>
@@ -55,7 +55,7 @@
 
         <div id="aboutme">
         <h1 class="center" style="color:white;" class="Title">About </h1>
-            <img class="imgimg" src="https://cdn.discordapp.com/avatars/288392976495935498/d2d159f9b95749ab5d76c981ab64994c.png?size=128"></img>
+            <span title="Jup.. This is me :D" class="tooltip"><img class="imgimg" src="https://cdn.discordapp.com/avatars/288392976495935498/d2d159f9b95749ab5d76c981ab64994c.png?size=128"></img></span>
             <div class="aboutMeT">
                 <h1>My name is <span>Siddhart</span></h1>
                 <p>My name is <b>Siddhart</b>, I am currently <b>16 years old</b> and I live in the <b>Netherlands</b>. I started coding when i was 13, I started with visual coding. I didn't like that so I jumped to Unity 3D and c#.
@@ -239,7 +239,6 @@ var TxtType = function(el, toRotate, period) {
     };
 
     window.onload = function() {
-        console.log("logged")
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
