@@ -1,8 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 600px) {
   .column {
     width: 50%;
+  }
+
+  .aboutMeT{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .typewrite{
+    color: white;
+    text-decoration: none;
+  }
+
+  #myCarousel1{
+    margin-left:-10px;
   }
 }
 
@@ -10,6 +24,24 @@
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+
+  .aboutMeT{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .typewrite{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .ToAboutMeA{
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
   }
 }
 
@@ -66,16 +98,9 @@ body, html{
     margin-left: auto;
     margin-right: auto;
 }
-.aboutMeT{
-    font-size: 25px;
-    text-align: center;
-    padding: 10px;
-}
 
-.typewrite{
-    color: white;
-    text-decoration: none;
-}
+
+
 * {
     box-sizing: border-box;
   }
@@ -136,15 +161,13 @@ body, html{
 
 footer{
     color: white;
-    padding: 10px;
     font-size: 25px;
     text-align: left;
     text-align: center;
-    margin-top: 55px;
 }
 
 table{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -216,4 +239,15 @@ h5{
   font-size: 155%;
   color: white;
   cursor: pointer;
+}
+
+.OurProjects{
+  text-align: center;
+}
+
+.container{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
