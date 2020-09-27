@@ -20,7 +20,6 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -28,7 +27,7 @@
 
   .aboutMeT{
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
 
